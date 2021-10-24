@@ -45,11 +45,14 @@ def sqrt(num, sqrt):
         return 'error'
 
 def expo(values):
-    result = values[0]
-    values.pop(0)
-    for c in values:
-        result = result ** c
-    return result
+    try:
+        result = values[0]
+        values.pop(0)
+        for c in values:
+            result = result ** c
+        return result
+    except:
+        return 'error'
 
 def degree(num):
     try:
@@ -58,12 +61,20 @@ def degree(num):
         return 'error'
 
 def radian(num):
-    return num * pi / 180
+    try:
+        return num * pi / 180
+    except:
+        return 'error'
 
 def fah(num):
-    return num * 9/5 + 32
+    try:
+        return num * 9/5 + 32
+    except:
+        return 'error'
 
 def cel(num):
-    return (num - 32) * 5/9
-
+    try:
+        return (num - 32) * 5/9
+    except:
+        return 'error'
    
