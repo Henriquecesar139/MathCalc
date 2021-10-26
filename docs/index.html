@@ -31,8 +31,7 @@
 
         <div class="container">
             <ul>
-                <p>Sumário: </p>
-                <li>Instalação</li>
+                <h3>Sumário</h3>
                 <li>Adição</li>
                 <li>Subtração</li>
                 <li>Multiplicação</li>
@@ -47,19 +46,11 @@
         </div>
 
         <div class="container">
-            <h3>Instalação: </h3>
-            <p>Use o PIP para instalar o módulo</p>
-            <div class="exemplo">
-                <p>>>> pip install mathcalc</p>
-            </div>
-        </div>
-
-        <div class="container">
             <h3>Adição</h3>
 
             <p>Use a função <i>sum()</i> para somar números.</p>
             <p>Essa função tem como parâmetro uma lista, onde todos os seus valores serão somados.</p>
-            <p>O resultado retornado deve ser <i>10</i> </p>
+            <p>O resultado retornado deve ser 10 </p>
             <div class="exemplo">
                 <p> print (sum( [1, 2, 3, 4] ) )</p>
                 <p> >>> 10</p>
@@ -71,7 +62,7 @@
 
             <p>Use a função <i>sub()</i> para subtrair números.</p>
             <p>Assim como a função de adição, essa função tem como parâmetro uma lista, onde todos os valores serão subtraídos</p>
-            <p>O resultado retornado deve ser <i>4</i> </p>
+            <p>O resultado retornado deve ser 4 </p>
             <div class="exemplo">
                 <p>print (sub ( [10, 3, 3] ) )</p>
                 <p> >>> 4</p>
@@ -103,13 +94,70 @@
 
         <div class="container">
             <h3>Exponenciação</h3>
-            <p>use a função <i>expo()</i> para 'exponeciar' números</p>
+            <p>use a função <i>expo()</i> para realizar uma exponenciação</p>
             <p>Essa função recebe uma lista, onde o valores são exponenciados</p>
             <p>O resultado deve ser 4096</p>
             <div class="exemplo">
                 <p>print( expo ( [4, 2, 3] ) )</p>
                 <p> >>> 4096</p>
             </div>            
+        </div>
+
+        <div class="container">
+            <h3>Radiciação</h3>
+            <p>Use a função <i>sqrt()</i> para realizar uma radiciação </p>
+            <p>Diferente das outras, essa função tem dois inteiros como parâmetro</p>
+            <p>O primeiro valor deve ser o número e o segundo deve ser a raiz</p>
+            <p>Os resultados retornados devem ser 30 e 8</p>
+            <div class="exemplo">
+                <p>print( sqrt (100, 3) )</p>
+                <p> >>> 30</p>
+                <p>print( sqrt (81, 2) )</p>
+                <p> >>> 9</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h3>Grau para Radianos</h3>
+            <p>Use a função <i>radian()</i> para realizar a converção</p>
+            <p>Essa função deve ter um número inteiro como parâmetro</p>
+            <p>O resultado retornado deve ser 0.17453292519943295</p>
+            <div class="exemplo">
+                <p>print ( radian (10) )</p>
+                <p> >>> 0.17453292519943295 </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h3>Radiano para Grau</h3>
+            <p>Use a função <i>degree</i> para realizar a converção</p>
+            <p>O resultado retornado deve ser 57.29577951308232 </p>
+            <div class="exemplo">
+                <p>print( degree (1) )</p>
+                <p> >>> 57.29577951308232</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h3>Celsius para fahrenheit</h3>
+            <p>Use a função <i>fah()</i> para converter Celsius para fahrenheit</p>
+            <p>Essa função tem como parâmetro um número inteiro</p>
+            <p>O resultado retornado no código abaixo deve ser <i>86.0</i></p>
+            <div class="exemplo">
+                <p>print( fah (30) )</p>
+                <p> >>> 86.0</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h3>fahrenheit para Celsius</h3>
+            <p>Use a função <i>cel()</i> para converter fahrenheit para Celsius</p>
+            <p>Essa função tem como parâmetro um número inteiro</p>
+            <p>O resultado retornado no código abaixo deve ser <i>30</i></p>
+            <div class="exemplo">
+                <p>print( cel (86) )</p>
+                <p> >>> 30.0</p>
+            </div>
         </div>
 
     </div>
