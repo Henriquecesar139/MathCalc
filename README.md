@@ -8,4 +8,8 @@
 
 <p>git clone https://github.com/henriquecesar139/MathCalc </p>
 
+<p> Em seu projeto, importe o módulo usando: </p>
+
+<en>From mathcalc import * <en>
+
 <strong>Leia a <a href="https://Henriquecesar139.github.io/MathCalc">documentação</a> para saber mais</strong>
